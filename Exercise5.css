@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Fasthand&family=Indie+Flower&family=Oswald:wght@200&family=Satisfy&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Fasthand&family=Indie+Flower&family=Montserrat:wght@100&family=Oswald:wght@200&family=Satisfy&display=swap");
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 50px;
+}
+h1,
+h2,
+h3 {
+  font-family: "Oswald", sans-serif;
+}
+p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bolder;
+  color: black;
+}
+
+img {
+  width: 400px;
+  height: 100px;
+}

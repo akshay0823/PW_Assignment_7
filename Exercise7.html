@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercise - 7 Card2</title>
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    .container {
+      width: 100vw;
+      height: 100vh;
+      background-color: aqua;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .card_container {
+      height: 300px;
+      width: 20vw;
+      background-color: rgb(237, 199, 60);
+      border-radius: 20px;
+      border: none;
+      overflow: hidden;
+    }
+    .card_img {
+      /* border: 1px solid black; */
+      height: 70%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .card_img img {
+      height: 150px;
+      width: 240px;
+      border-radius: 20px;
+    }
+    .para {
+      padding: 5px;
+    }
+    .container :hover {
+      opacity: 0.6;
+      transition: all 1s;
+      background-color: white;
+    }
+  </style>
+  <body>
+    <div class="container">
+      <div class="card_container">
+        <div class="card_img">
+          <img src="/PW_img.webp" alt="" />
+        </div>
+        <div class="para">
+          <p><b>Course Name : </b>PW Skills full stack web development</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercise - 1 Nav2</title>
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    .nav_container {
+      background-color: #738ffe;
+      height: 70px;
+      display: flex;
+      align-items: center;
+    }
+    nav {
+      height: 60px;
+      width: 60%;
+      /* border: 1px solid black; */
+      display: flex;
+      align-items: center;
+    }
+    nav ul {
+      display: flex;
+      width: inherit;
+      list-style-type: none;
+      justify-content: space-around;
+      align-content: center;
+    }
+    nav ul li a {
+      color: white;
+    }
+    nav ul li:nth-child(1) {
+      border-style: dashed solid;
+      padding: 3px;
+    }
+    nav ul li:nth-child(2) {
+      border-style: dotted solid;
+      padding: 3px;
+    }
+    nav ul li:nth-child(3) {
+      border-style: double solid;
+      padding: 3px;
+    }
+    nav ul li:nth-child(4) {
+      border-style: inset;
+      padding: 3px;
+    }
+    nav ul li:nth-child(5) {
+      border-style: outset groove;
+      padding: 3px;
+    }
+    nav ul li a:hover {
+      color: rgb(22, 12, 22);
+    }
+  </style>
+  <body>
+    <header class="nav_container">
+      <nav>
+        <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="">About US</a></li>
+          <li><a href="">Contact</a></li>
+          <li><a href="">Blog</a></li>
+          <li><a href="">Login</a></li>
+        </ul>
+      </nav>
+    </header>
+  </body>
+</html>
